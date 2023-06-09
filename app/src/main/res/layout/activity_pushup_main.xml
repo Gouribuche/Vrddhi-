@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffebcd">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffebcd"
+    android:id="@+id/root_layout">
+
+    <!-- Text view at the top with ID "session" and text "16" -->
+    <TextView
+        android:textColor="@color/purple_500"
+        android:id="@+id/goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:id="@+id/pu"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pushup"
+        android:layout_below="@+id/goal"
+        android:layout_centerHorizontal="true"/>
+
+    <!-- Image (@drawable/baseline_circle_24) in the center -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/baseline_circle_24"
+        android:layout_centerInParent="true"/>
+
+    <!-- Text view in the center with text "1" (overlapping the image) -->
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="0"
+        android:textColor="#ffebcd"
+        android:textSize="100sp" />
+
+    <!-- Text view right under the image with text "Go" -->
+    <TextView
+        android:textColor="@color/purple_500"
+        android:id="@+id/cheer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go"
+        android:textSize="30dp"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</LinearLayout>

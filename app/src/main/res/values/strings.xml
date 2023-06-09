@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Vrddhi</string>
+    <string name="young_adult">  Young Adult</string>
+    <string-array name="workout_type">
+        <item>Chest</item>
+        <item>Legs</item>
+        <item>Triceps</item>
+        <item>Shoulders</item>
+        <item>Biceps</item>
+        <item>Back</item>
+    </string-array>
+    <string name="advisortext">Welcome to workout advisor! Choose a body part you would like to train and we\'ll provide some exercises to you.</string>
+    <string name="pushuptext">Welcome to pushup counter! As soon as you hit that start button, you will be assigned a session goal. Keep your phone on the ground right under your nose at take up a pushup position. Hit the screen with your nose with each rep and reach the session goal.</string>
+</resources>

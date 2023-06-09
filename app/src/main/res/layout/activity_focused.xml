@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pose2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffebcd"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/focused" />
+
+        <Button
+            android:id="@+id/time"
+            android:layout_width="206dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="01:00"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/startbutton"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonbg1"
+            android:gravity="center"
+            android:text="START"
+            android:textSize="35dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="FOCUSED
+            MEDITATION"
+            android:textAlignment="center"
+            android:textColor="#DF9C5B56"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="1000dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="Focused meditation involves concentration using any of the five senses.
+For example, you can focus on something internal, like your breath, or you can bring in external influences to help focus your attention.
+Examples include:
+
+counting mala beads
+listening to a gong
+staring at a candle flame
+counting your breaths
+moon gazing
+This practice may be simple in theory, but it can be difficult for beginners to hold their focus for longer than a few minutes at first.
+If your mind does wander, simply come back to the practice and refocus."
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</RelativeLayout>

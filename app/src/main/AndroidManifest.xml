@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.projectvriddhi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Miniproject"
+        tools:targetApi="31">
+        <activity
+            android:name=".PushupMain"
+            android:exported="false" />
+        <activity
+            android:name=".Pushup"
+            android:exported="false" />
+        <activity
+            android:name=".advisorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Registration"
+            android:exported="false" />
+        <activity
+            android:name=".focused"
+            android:exported="false" />
+        <activity
+            android:name=".spirutual"
+            android:exported="false" />
+        <activity
+            android:name=".mindfulness"
+            android:exported="false" />
+        <activity
+            android:name=".mantra"
+            android:exported="false" />
+        <activity
+            android:name=".yogapose7"
+            android:exported="false" />
+        <activity
+            android:name=".yogapose6"
+            android:exported="false" />
+        <activity
+            android:name=".yogapose5"
+            android:exported="false" />
+        <activity
+            android:name=".yogapose4"
+            android:exported="false" />
+        <activity
+            android:name=".yogapose3"
+            android:exported="false" />
+        <activity
+            android:name=".yogapose2"
+            android:exported="false" />
+        <activity
+            android:name=".yogapose1"
+            android:exported="false" />
+        <activity
+            android:name=".pose7"
+            android:exported="false" />
+        <activity
+            android:name=".pose6"
+            android:exported="false" />
+        <activity
+            android:name=".pose5"
+            android:exported="false" />
+        <activity
+            android:name=".pose4"
+            android:exported="false" />
+        <activity
+            android:name=".pose3"
+            android:exported="false" />
+        <activity
+            android:name=".pose2"
+            android:exported="false" />
+        <activity
+            android:name=".pose1"
+            android:exported="false" />
+        <activity
+            android:name=".MediatationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".login" />
+        <activity
+            android:name=".splashscreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

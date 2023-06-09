@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "409637073819",
+    "project_id": "vrddhifinal",
+    "storage_bucket": "vrddhifinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409637073819:android:6fe8d642cdd73c7adb673e",
+        "android_client_info": {
+          "package_name": "com.example.projectvriddhi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "409637073819-g8tn3gpmj7s3j06339cbmal7v6g7d10h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsO8MPh-X0a4uDp5KYILEQPv3sWG65mVs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "409637073819-g8tn3gpmj7s3j06339cbmal7v6g7d10h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

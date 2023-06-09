@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffebcd"
+    android:orientation="vertical"
+    tools:context="com.example.projectvriddhi.MainActivity">
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:id="@+id/toolBar"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="37dp"-->
+<!--        android:layout_marginBottom="@+id/toolBar"-->
+<!--        android:background="#8b7765"-->
+<!--        android:gravity="end"-->
+<!--        android:textAlignment="textEnd"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"-->
+<!--        app:title="Fitness Regime" />-->
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/scrolllayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#ffebcd">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="10dp"
+                android:background="#ffebcd"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/userDetails"
+                    android:text="Hello"
+                    android:textStyle="bold"
+                    android:textColor="#8b7765"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/logout"
+                    android:text="LOGOUT"
+
+                    />
+            </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffebcd"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/box1"
+            android:baselineAligned="true"
+            android:layout_width="fill_parent"
+            android:layout_height="121dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="youngadult"
+            android:orientation="horizontal"
+            tools:ignore="UsingOnClickInXml">
+
+            <LinearLayout
+                android:id="@+id/title1box"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:layout_weight="1.0"
+                android:orientation="vertical"
+                tools:ignore="TextSizeCheck">
+
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:fontFamily="monospace"
+                    android:padding="-1dp"
+                    android:text="EXERSICE"
+                    android:textColor="#8b7765"
+                    android:layout_gravity="center"
+                    android:textSize="25dp"
+
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0">
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:src="@drawable/exersice_7"
+                    tools:ignore="ImageContrastCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0">
+
+                <ImageView
+                    android:id="@+id/medi3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10.0dp"
+                    android:src="@drawable/baseline_keyboard_arrow_right_24" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:background="@drawable/button"
+            android:text="Let's Start"
+            android:textAllCaps="true"
+            android:textColor="#FFF"
+            android:textSize="28dp"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffebcd"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/box2"
+            android:layout_width="fill_parent"
+            android:layout_height="121dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="adult"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/title2box"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:layout_weight="1.0"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:layout_gravity="center"
+                    android:text="YOGA"
+                    android:textColor="#8b7765"
+                    android:textSize="30.0dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0">
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/cobra_pose"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0">
+
+                <ImageView
+                    android:id="@+id/medi2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10.0dp"
+                    android:src="@drawable/baseline_keyboard_arrow_right_24" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:background="@drawable/button"
+            android:text="Start"
+            android:textAllCaps="true"
+            android:textColor="#FFF"
+            android:textSize="28dp"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffebcd"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/box2"
+            android:layout_width="fill_parent"
+            android:layout_height="121dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:onClick="adult"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/title2box"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:layout_weight="1.0"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="monospace"
+                    android:text="MEDITATION"
+                    android:layout_gravity="center"
+                    android:textColor="#8b7765"
+                    android:textSize="30.0dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0">
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:src="@drawable/med"
+                    tools:ignore="ImageContrastCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.0">
+
+                <ImageView
+                    android:id="@+id/medi0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10.0dp"
+                    android:src="@drawable/baseline_keyboard_arrow_right_24" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/start3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10.0dp"
+            android:background="@drawable/button"
+            android:text="Start"
+            android:textAllCaps="true"
+            android:textColor="#FFF"
+            android:textSize="28dp"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffebcd"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/advisorBox"
+                    android:layout_width="fill_parent"
+                    android:layout_height="121dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/Advisortitlebox"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/Advisortitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Workout Advisor"
+                            android:textColor="#8b7765"
+                            android:textSize="30.0dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0">
+
+                        <ImageView
+                            android:id="@+id/advisorimg"
+                            android:layout_width="match_parent"
+                            android:layout_height="108dp"
+                            android:src="@drawable/workour"
+                            tools:ignore="ImageContrastCheck" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0">
+
+                        <ImageView
+                            android:id="@+id/advimg"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10.0dp"
+                            android:src="@drawable/baseline_keyboard_arrow_right_24" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/startAdvisor"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dp"
+                    android:background="@drawable/button"
+                    android:text="Start"
+                    android:textAllCaps="true"
+                    android:textColor="#FFF"
+                    android:textSize="28dp"
+                    tools:ignore="VisualLintButtonSize" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:background="#ffebcd"
+                android:orientation="vertical"
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/pushupBox"
+                    android:layout_width="fill_parent"
+                    android:layout_height="121dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/pushuptitlebox"
+                        android:layout_width="fill_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1.0"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/pushuptitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="monospace"
+                            android:gravity="center"
+                            android:text="Push Up Counter"
+                            android:textColor="#8b7765"
+                            android:textSize="30.0dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2.0">
+
+                        <ImageView
+                            android:id="@+id/pushupimg"
+                            android:layout_width="match_parent"
+                            android:layout_height="108dp"
+                            android:src="@drawable/pushup"
+                            tools:ignore="ImageContrastCheck" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.0">
+
+                        <ImageView
+                            android:id="@+id/puimg"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="10.0dp"
+                            android:src="@drawable/baseline_keyboard_arrow_right_24" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/startPushups"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10.0dp"
+                    android:background="@drawable/button"
+                    android:text="Start"
+                    android:textAllCaps="true"
+                    android:textColor="#FFF"
+                    android:textSize="28dp"
+                    tools:ignore="VisualLintButtonSize" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="   CONTACT US @ customersupport@vrddhi.co.in"
+                    android:textColor="@color/purple_500"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    >
+
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

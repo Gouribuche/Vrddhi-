@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pose2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffebcd"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="20dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/mindfulness" />
+
+        <Button
+            android:id="@+id/time"
+            android:layout_width="206dp"
+            android:layout_height="122dp"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="01:00"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/startbutton"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/buttonbg1"
+            android:gravity="center"
+            android:text="START"
+            android:textSize="35dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="94dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="MINDFULNESS MEDITATION"
+            android:textAlignment="center"
+            android:textColor="#DF9C5B56"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="1000dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="In mindfulness meditation, you pay attention to your thoughts as they pass through your mind. You don’t judge the thoughts or become involved with them. You simply observe and take note of any patterns.
+This practice combines concentration with awareness. You may find it helpful to focus on an object or your breath while you observe any bodily sensations, thoughts, or feelings.
+This type of meditation is good for people who don’t have a teacher to guide them, as it can be easily practiced alone."
+            android:textAlignment="center"
+            android:textColor="@color/purple_200"
+            android:textSize="15sp"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+</RelativeLayout>
